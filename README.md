@@ -1,4 +1,4 @@
-# data-product-project
+# Shiny Application on Political Stability Around the World
 
 This is project is about a shiny application which will help to predict political instability in a given country.
 
