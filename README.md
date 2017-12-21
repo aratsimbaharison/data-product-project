@@ -1,24 +1,12 @@
-# Shiny Application on Political Stability Around the World
+# SPTrend: Shiny Application on the Trend of Stock Price
 
-This is project is about a shiny application which will help to predict political instability in a given country.
+SPTrend which stands for "Stock Price Trend" is a shiny application that displays the price of a selected stock over the years (the earliest being 2013).
 
-For now, the data used in this project come from the World Bank's World Governance Indicators.
+This app is based a template provided by RStudio in its tutorial on shiny app (<http://shiny.rstudio.com/tutorial/>), and uses data collected from google finance.
 
-The dependent variable will be the "Political Stability and Absence of Violence/Terrorism: Estimate" designated as by the World Bank as the variable "PV.EST"
+Advantages of SPTrend:
 
-The independent variables will include everything else in the World Bank's World Governance Indicators:
-
-- Control of Corruption: Estimate, "CC.EST"
-- Government Effectiveness: Estimate, "GE.EST"
-- Regulatory Quality: Estimate, "RQ.EST"
-- Rule of Law: Estimate, "RL.EST"
-- Voice and Accountability: Estimate, "VA.EST"
-
-The first step of this project is to identify the variables that can significantly influence the level of political stability or instablility.
-
-The second step is to build a shiny application with these variables, showing for instance that the level of instability would increase if the level of rule of law decreases.
-
-The third step is to deploy this shiny application on Rstudio's (rpubs).
-
-The fourth and final step is to prepare a presentation in rstudio presentating this shiny application.
+- This app is easy to use: the user only needs to know the symbol of a stock, type it in the app, select the date range, and see the trend of the stock price in the main panel.   
+- It is trustworthy: it is based on data from google finance that is available online and can be verified independently.   
+- It is fast and free: all you need is to access the following website: <https://aratsimbaharison.shinyapps.io/SPTrend/>
 
